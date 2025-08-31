@@ -8,9 +8,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export function loader({ context }: Route.LoaderArgs) {
-  return { message: "test.sub2 loader" };
+  return { message: "api.sub2 loader" };
 }
 
 export default function Sub1({ loaderData }: Route.ComponentProps) {
-  return <div>test.sub2 component</div>;
+  return <div>api.sub2 component</div>;
 }
