@@ -1,9 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 
-export function loader(){
-  return { message: "Hello from Vercel" }
-}
 
 export function Welcome({ message }: { message: string }) {
   return (
