@@ -1,4 +1,4 @@
-import type { Route } from "./+types/test.sub2";
+import type { Route } from "./+types/api.sub2";
 
 export function meta({}: Route.MetaArgs) {
   return [

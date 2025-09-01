@@ -1,4 +1,4 @@
-import type { Route } from "./+types/($lang)._index";
+import type { Route } from "./+types/_index";
 import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
@@ -13,5 +13,5 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-  return <div>($lang)._index</div>;
+  return <div>_index</div>;
 }
